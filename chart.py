@@ -15,7 +15,8 @@ from  more_itertools import unique_everseen
 from random import shuffle as sf
  
 
-req = requests.get('http://localhost:2000/getcsvfile/trial')
+#req = requests.get('http://localhost:2000/getcsvfile/trial')
+req = requests.get('http://localhost:2000/getcsvfile/strenght-weakness_bp')
 #file = requests.get('http://localhost:2000/getMp4video/strenght-weakness_bp.wmv')
 
 
